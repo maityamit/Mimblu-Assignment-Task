@@ -65,7 +65,7 @@
                 android:layout_marginEnd="10dp"
                 android:paddingStart="10dp"
                 android:textColor="@color/black"
-                android:backgroundTint="#E6E5E5"
+                android:backgroundTint="#F1F0F0"
                 android:paddingEnd="10dp"
                 android:text="Mimbu Lite"/>
 
@@ -92,7 +92,7 @@
                 android:layout_marginEnd="10dp"
                 android:paddingStart="10dp"
                 android:textColor="@color/black"
-                android:backgroundTint="#E6E5E5"
+                android:backgroundTint="#F1F0F0"
                 android:paddingEnd="10dp"
                 android:text="Mimbu Live"/>
 
@@ -101,10 +101,10 @@
         </LinearLayout>
 
         <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/plan_recyclerView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:listitem="@layout/plan_layout"
-            android:scrollbars="horizontal"
             android:layout_marginTop="10dp">
 
 
